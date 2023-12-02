@@ -5,6 +5,9 @@ import {  Card,
   CardHeader, 
   CardTitle  } from "@/components/ui/card"
 
+  import { Button } from "@/components/ui/button"
+
+
 
 
 
@@ -23,28 +26,9 @@ export default function Home() {
           </CardHeader>
           <CardContent>Card Content</CardContent>
           <CardFooter>Card Footer</CardFooter>
+          <Button>Button</Button>
         </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>Card Content</CardContent>
-          <CardFooter>Card Footer</CardFooter>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>Card Content</CardContent>
-          <CardFooter>Card Footer</CardFooter>
-        </Card>
-     
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
+       
       </div>
     </main>
   )
