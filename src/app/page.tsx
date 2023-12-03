@@ -18,6 +18,7 @@ export default function Home() {
                                                                                                                     
         </nav>
       <h1 className="text-lg">Sachis Kitchen</h1>
+      <div>Slider</div>
       <div>
         <Card>
           <CardHeader>
