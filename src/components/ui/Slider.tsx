@@ -23,15 +23,17 @@ const Slider = () => {
   // }, [images.length]);
 
   return (
-    <div className="relative flex-1 w-full h-1/2">
+    <div className=" relative flex justify-center w-full border-red-500 max-w-[1400px] h-[900px]  m-auto py-16 px-4 group">
       <Image
         src={images[currentImageIndex]}
         alt={`Slider Image ${currentImageIndex + 1}`}
-        // className='object-fill'
-        // style={{objectFit: "contain"}}
+        className='w-full h-full rounded-2xl'
+        // style={{objectFit: "contain"}}S
         // fill={true}
-        width={750}
-        height={500}
+        //  objectFit='cover'
+        // layout='fill'
+         width={1400}
+         height={780}
       />
     </div>
   );
