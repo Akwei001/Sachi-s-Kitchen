@@ -21,7 +21,11 @@ export default function Home() {
       {/*Showcase mouth-watering images of izakaya-inspired dishes with a welcome message. */}
       <Slider/>
       {/*Highlight the unique experience of Japanese street food at the pop-up restaurant.*/}
-      <section>Feature Section</section>
+      <section>Feature Section
+        <h1>Experience the Flavours of Japan with Us</h1>
+        <h1></h1>
+        <h1></h1>
+      </section>
       {/*Invite visitors to explore the menu and place an order for delivery or book a table.*/}
       <section>CTA Section</section>
       {/*Display logos of food delivery partners and event collaborators.*/}
