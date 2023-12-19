@@ -22,9 +22,9 @@ export default function Home() {
       {/*Showcase mouth-watering images of izakaya-inspired dishes with a welcome message. */}
       <Slider/>
       {/*Highlight the unique experience of Japanese street food at the pop-up restaurant.*/}
-      <section>
+      <section className=" grid grid-cols-2 m-auto">
         
-        <div>
+        <div className="">
           <h2>Delicious</h2>
           <h1>Experience the Authentic Flavours of Japanese Street Food</h1>
         <p>At our pop-up reatauranr, we offer a unique dining experience where you can indluge in the vibrant flavour of the world a Japanese Street food. Our menu is inspired by izakaya-style cuisine, featuring a variety of small plates and snacks that are perfevt for sharing. Whether you are a fan of Tempura or yakitori, our talented chefs prepare each dish with care and precision, ensuring bite is a burst of authentic Japanese flavours. Join us and embark on a culinary journey through the bustling streets of Japan. </p>
@@ -36,8 +36,11 @@ export default function Home() {
           <h3>Discover More</h3>
           <p>Explore our menu and experience the vibrant culinary cuture of Japan.</p>
         </div>
-        <button>Menu</button>
-        <button>Reserve  + </button>
+        <Button>
+          <button>Menu</button>
+          </Button>
+        <Button>Reserve  + </Button>
+        
       </div>
       <div>
         <Image src='/a_photo_of_gyoza.png'
