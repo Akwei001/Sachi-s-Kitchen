@@ -56,13 +56,59 @@ export default function Home() {
        
       </section>
       {/*Invite visitors to explore the menu and place an order for delivery or book a table.*/}
-      <section>CTA Section</section>
+      <section>
+        
+        <div className="grid grid-cols-2 gap-4 pt-4 pb-4 m-4 border border-red-500" >
+          <h1 className="text-lg font-bold border border-red-500 ">Delicious Japanese Street Food Experience</h1>
+          <div className="border border-red-500 ">
+            <p className="border border-red-500 ">Indulge in the flavours of authentic izakaya inspired Japanese street food. Order now for delivery or book for an forgettable dining experience</p>
+            <div className="mt-4">            
+            <Button className="mr-2">Explore</Button>
+            <Button>Order</Button>
+            </div>
+
+          </div>
+          
+        </div>
+      
+      </section>
       {/*Display logos of food delivery partners and event collaborators.*/}
-      <section>Logo List Section</section>
-      {/*Display logos of food delivery partners and event collaborators.*/}
-      <section>Testimonial Section</section>
+      <section className="grid justify-center grid-cols-3 m-4 font-extrabold border border-red-500">
+        <div>Uber Eats</div>
+        <div>Just Eat</div>
+        <div>Deliveroo</div>
+      </section>
+     
+      <section>
+        <div className="flex justify-center border border-red-500">
+        <p>The food at this pop-up restaurant is absoulutely amazing! Every dish is bursting with flavour and the atmosphere is lively and fun.</p>
+        <p>John Doe</p>
+        <p>Food Critic Foodie magazine</p>
+        </div>
+        
+      </section>
       {/*Share customer testimonials about the delicious food and vibrant atmosphere.*/}
-      <section>Contact Section</section>
+
+      <section className="flex justify-evenly ">
+        <div className="border border-red-500 " >
+          <div>Icon</div>
+          <p>Email</p>
+          <p>For any enquiries or event booking, please fill out the form below</p>
+          <p>email@email.com</p>
+        </div>
+        <div className="border border-red-500 ">
+          <div>Icon</div>
+          <p>Email</p>
+          <p>For any enquiries or event booking, please fill out the form below</p>
+          <p>email@email.com</p>
+        </div>
+        <div className="border border-red-500 ">
+          <div>Icon</div>
+          <p>Email</p>
+          <p>For any enquiries or event booking, please fill out the form below</p>
+          <p>email@email.com</p>
+        </div>
+      </section>
       {/*Provide contact information and encourage visitors to get in touch for events and inquiries.*/}
      
       
