@@ -11,9 +11,9 @@ import { Card,
 
 const MenuPage = () => {
   return (
-    <div className='p-4 lg:px-20 xl:px-40 h-[100vh] md:h-[100vh]flex flex-col md:flex-row items-center '>
+    <div className='p-4 lg:px-20 xl:px-40 h-[100vh] md:h-[100vh]flex flex-col md:flex-row items-center'>
      {menu.map(category => (
-     <Card key={category.id}>
+     <Card key={category.id} className='bg-emerald-400'>
       <CardTitle>
         {category.title}
       </CardTitle>
