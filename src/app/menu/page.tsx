@@ -1,6 +1,7 @@
 import React from 'react'
 import { menu } from '@/data'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Card, 
   CardContent, 
   CardDescription, 
@@ -13,16 +14,26 @@ const MenuPage = () => {
   return (
     <div className='p-4 lg:px-20 xl:px-40 h-[100vh] md:h-[100vh]flex flex-col md:flex-row items-center'>
      {menu.map(category => (
-     <Card key={category.id} className='bg-emerald-400'>
+     
+      <Card  
+      key={category.id} className='bg-gray-400'>
       <CardTitle>
         {category.title}
       </CardTitle>
       <CardDescription>
         {category.desc}
-      
       </CardDescription>
+      <Image className=''
+        src={category.img}
+        alt='a photo of gyoza'
+        width={100}
+        height={100}/>
+      <Link href={category.slug} >
         <Button>Explore</Button>
+      </Link>
+        
      </Card>
+    
       ))}
      
     </div>
