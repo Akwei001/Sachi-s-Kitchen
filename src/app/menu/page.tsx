@@ -28,8 +28,8 @@ const MenuPage = () => {
         alt='a photo of gyoza'
         width={100}
         height={100}/>
-      <Link href={category.slug} >
-        <Button>Explore</Button>
+      <Link href={`/menu/category.slug`} >
+        <Button className='px-4 py-2 text-red-500 rounded-md'>Explore</Button>
       </Link>
         
      </Card>
