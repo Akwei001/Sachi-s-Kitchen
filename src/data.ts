@@ -63,3 +63,29 @@ type Product = {
    
 
   ];
+
+  export const rice: Products = [
+    {
+      id: 1,
+      title: "Gyudon",
+      desc: "Indulge in the tantalizing blend of tender beef, savory sauce, and steaming rice that defines the exquisite Japanese comfort dish, Gyudon.",
+      img: "/temporary/p1.png",
+      price: 5,
+      options: [
+        {
+          title: "Small",
+          additionalPrice: 0,
+        },
+        {
+          title: "Medium",
+          additionalPrice: 4,
+        },
+        {
+          title: "Large",
+          additionalPrice: 6,
+        },
+      ],
+    },
+
+
+  ]
