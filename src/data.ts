@@ -130,6 +130,27 @@ type Product = {
         },
       ],
     },
+    {
+      id: 3,
+      title: "Katsudon",
+      desc: "",
+      img: "/temporary/p1.png",
+      price: 5,
+      options: [
+        {
+          title: "Small",
+          additionalPrice: 0,
+        },
+        {
+          title: "Medium",
+          additionalPrice: 4,
+        },
+        {
+          title: "Large",
+          additionalPrice: 6,
+        },
+      ],
+    },
 
 
 
