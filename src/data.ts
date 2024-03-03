@@ -69,7 +69,7 @@ type Product = {
       id: 1,
       title: "Gyudon",
       desc: "Indulge in the tantalizing blend of tender beef, savory sauce, and steaming rice that defines the exquisite Japanese comfort dish, Gyudon.",
-      img: "/temporary/p1.png",
+      img: "/gyudon.png",
       price: 5,
       options: [
         {
@@ -91,7 +91,7 @@ type Product = {
       id: 2,
       title: "Katsudon",
       desc: "",
-      img: "/temporary/p1.png",
+      img: "/katsu.png",
       price: 5,
       options: [
         {
@@ -111,9 +111,9 @@ type Product = {
 
     {
       id: 3,
-      title: "Katsudon",
-      desc: "",
-      img: "/temporary/p1.png",
+      title: "Curry Rice",
+      desc: "Discover the irresistible flavors of authentic Japanese curry — a harmonious blend of tender meat, vibrant vegetables, and aromatic spices that will transport your taste buds to Japan.",
+      img: "/curry.png",
       price: 5,
       options: [
         {
@@ -131,9 +131,9 @@ type Product = {
       ],
     },
     {
-      id: 3,
-      title: "Katsudon",
-      desc: "",
+      id: 4,
+      title: "Omurice",
+      desc: "Welcome to our restaurant, where you can indulge in the delightful fusion of a fluffy omelette draped over fragrant seasoned fried rice, creating a harmonious blend of flavors that will transport your taste buds to the heart of Japan with every mouthwatering bite of our signature omurice.",
       img: "/temporary/p1.png",
       price: 5,
       options: [
@@ -152,27 +152,6 @@ type Product = {
       ],
     },
 
-    {
-      id: 3,
-      title: "Katsudon",
-      desc: "",
-      img: "/temporary/p1.png",
-      price: 5,
-      options: [
-        {
-          title: "Small",
-          additionalPrice: 0,
-        },
-        {
-          title: "Medium",
-          additionalPrice: 4,
-        },
-        {
-          title: "Large",
-          additionalPrice: 6,
-        },
-      ],
-    },
-
+    
 
   ]
