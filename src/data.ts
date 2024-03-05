@@ -48,7 +48,7 @@ type Product = {
     slug: 'Rice',
     title: 'Rice',
     desc: 'A selection of Rice dishes',
-    img: '/yakitori.png',
+    img: '/curry.png',
     color: 'green',
    },
   //  {
